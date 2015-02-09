@@ -2,8 +2,10 @@
 #define GADGETRONCONNECTOR_H_
 
 #include "GadgetronSlotContainer.h"
-#include "GadgetMessageInterface.h"
+#include "GadgetMessageReaderWriter.h"
+#include "GadgetContainerMessage.h"
 #include "gadgettools_export.h"
+#include "log.h"
 
 #include <ace/Svc_Handler.h>
 #include <ace/Reactor.h>
